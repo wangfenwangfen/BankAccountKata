@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0764789c-8b4b-4f1a-a14a-a1be90d54ef5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Account/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/BankAccountKata.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/DepositTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/BankAccountKata.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DepositTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DepositTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DepositTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DepositTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,19 +20,19 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.3158397">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Account.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
                   <folding>
+                    <element signature="e#69#70#0" expanded="true" />
+                    <element signature="e#107#108#0" expanded="true" />
                     <element signature="e#87#88#0" expanded="true" />
                     <element signature="e#130#131#0" expanded="true" />
-                    <element signature="e#188#189#0" expanded="true" />
-                    <element signature="e#226#227#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -49,8 +45,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/DepositTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+                <state relative-caret-position="391">
+                  <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -177,12 +173,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DepositTest.balance_should_not_change_if_deposit_amount_is_zero">
+  <component name="RunManager" selected="JUnit.DepositTest">
     <configuration name="DepositTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BankAccountKata" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DepositTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepositTest.balance_should_increase_if_deposit_amount_is_greater_than_zero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BankAccountKata" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DepositTest" />
+      <option name="METHOD_NAME" value="balance_should_increase_if_deposit_amount_is_greater_than_zero" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,8 +205,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DepositTest.balance_should_not_change_if_deposit_amount_is_zero" />
         <item itemvalue="JUnit.DepositTest" />
+        <item itemvalue="JUnit.DepositTest.balance_should_increase_if_deposit_amount_is_greater_than_zero" />
+        <item itemvalue="JUnit.DepositTest.balance_should_not_change_if_deposit_amount_is_zero" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +221,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556476505015</updated>
-      <workItem from="1556476509659" duration="972000" />
+      <workItem from="1556476509659" duration="1214000" />
     </task>
     <task id="LOCAL-00001" summary="US 1: creation depositTest : case balance should not change if deposit amount is zero">
       <created>1556477341216</created>
@@ -223,36 +230,56 @@
       <option name="project" value="LOCAL" />
       <updated>1556477341216</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="US 1: creation depositTest : case balance should not change if deposit amount is zero">
+      <created>1556477580180</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556477580180</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="DepositTest - 2019.04.28 at 20h 44m 50s.xml">
       <configuration name="DepositTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DepositTest - 2019.04.28 at 20h 51m 58s.xml">
+      <configuration name="DepositTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DepositTest_balance_should_not_change_if_deposit_amount_is_zero - 2019.04.28 at 20h 52m 43s.xml">
+      <configuration name="DepositTest.balance_should_not_change_if_deposit_amount_is_zero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DepositTest_balance_should_not_change_if_deposit_amount_is_zero - 2019.04.28 at 20h 52m 53s.xml">
+      <configuration name="DepositTest.balance_should_not_change_if_deposit_amount_is_zero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DepositTest_balance_should_increase_if_deposit_amount_is_greater_than_zero - 2019.04.28 at 20h 55m 11s.xml">
+      <configuration name="DepositTest.balance_should_increase_if_deposit_amount_is_greater_than_zero" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="972000" />
+    <option name="totallyTimeSpent" value="1214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15210356" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15210356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.3298731" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3298731" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3298731" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298731" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,25 +340,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DepositTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#69#70#0" expanded="true" />
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Account.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DepositTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="391">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
           <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -6,6 +6,6 @@ class Account {
     }
 
    double deposit(double amount) {
-        return this.balance;
+        return this.balance + amount;
     }
 }
