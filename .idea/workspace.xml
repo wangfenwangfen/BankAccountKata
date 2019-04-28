@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0764789c-8b4b-4f1a-a14a-a1be90d54ef5" name="Default Changelist" comment="US 3: create AccountOperation class and Refactor DepositTest RetrieveTest">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AccountOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DepositTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DepositTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RetrieveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RetrieveTest.java" afterDir="false" />
+    <list default="true" id="0764789c-8b4b-4f1a-a14a-a1be90d54ef5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/OperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DepositTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DepositTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,17 +18,25 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3129771">
+    <splitter split-orientation="horizontal" split-proportion="0.52671754">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Account.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+                <state relative-caret-position="289">
+                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/OperationsTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="111">
+                  <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
                   <folding>
-                    <element signature="e#69#70#0" expanded="true" />
-                    <element signature="e#107#108#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -45,8 +49,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/DepositTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="69" selection-start-line="8" selection-start-column="7" selection-end-line="10" selection-end-column="69" />
+                <state relative-caret-position="431">
+                  <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -57,8 +61,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/AccountOperation.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+                <state relative-caret-position="340">
+                  <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -66,8 +70,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/RetrieveTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
-                  <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+                <state relative-caret-position="397">
+                  <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -95,10 +99,11 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Account/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AccountOperation.java" />
         <option value="$PROJECT_DIR$/src/test/java/DepositTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RetrieveTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AccountOperation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OperationsTest.java" />
       </list>
     </option>
   </component>
@@ -264,7 +269,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556476505015</updated>
-      <workItem from="1556476509659" duration="3181000" />
+      <workItem from="1556476509659" duration="5126000" />
     </task>
     <task id="LOCAL-00001" summary="US 1: creation depositTest : case balance should not change if deposit amount is zero">
       <created>1556477341216</created>
@@ -308,43 +313,57 @@
       <option name="project" value="LOCAL" />
       <updated>1556478580170</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="US 3: create AccountOperation class and Refactor DepositTest RetrieveTest">
+      <created>1556479726110</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1556479726110</updated>
+    </task>
+    <task id="LOCAL-00008" summary="US 3: create operationsList in AccountOperation class and Refactor DepositTest RetrieveTest with Operations">
+      <created>1556481582355</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1556481582355</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DepositTest - 2019.04.28 at 21h 21m 12s.xml">
-      <configuration name="DepositTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DepositTest_balance_should_increase_if_deposit_amount_is_greater_than_zero - 2019.04.28 at 21h 21m 32s.xml">
-      <configuration name="DepositTest.balance_should_increase_if_deposit_amount_is_greater_than_zero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BankAccountKata - 2019.04.28 at 21h 21m 38s.xml">
-      <configuration name="All in BankAccountKata" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BankAccountKata - 2019.04.28 at 21h 22m 25s.xml">
-      <configuration name="All in BankAccountKata" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BankAccountKata - 2019.04.28 at 21h 25m 32s.xml">
-      <configuration name="All in BankAccountKata" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BankAccountKata - 2019.04.28 at 21h 25m 43s.xml">
-      <configuration name="All in BankAccountKata" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BankAccountKata - 2019.04.28 at 21h 26m 23s.xml">
-      <configuration name="All in BankAccountKata" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BankAccountKata - 2019.04.28 at 21h 26m 46s.xml">
-      <configuration name="All in BankAccountKata" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BankAccountKata - 2019.04.28 at 21h 26m 57s.xml">
-      <configuration name="All in BankAccountKata" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_BankAccountKata - 2019.04.28 at 21h 27m 07s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2019.04.28 at 21h 28m 38s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2019.04.28 at 21h 42m 02s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2019.04.28 at 21h 52m 34s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2019.04.28 at 21h 55m 32s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2019.04.28 at 21h 55m 57s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2019.04.28 at 21h 56m 21s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2019.04.28 at 21h 56m 30s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2019.04.28 at 21h 58m 24s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2019.04.28 at 21h 59m 09s.xml">
       <configuration name="All in BankAccountKata" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3181000" />
+    <option name="totallyTimeSpent" value="5126000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,7 +474,8 @@
     <MESSAGE value="US 2: creation RetrieveTest : case balance should not change if retrieve amount is zero" />
     <MESSAGE value="US 2: creation RetrieveTest : case balance should decrease if retrieve amount is greater than zero" />
     <MESSAGE value="US 3: create AccountOperation class and Refactor DepositTest RetrieveTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="US 3: create AccountOperation class and Refactor DepositTest RetrieveTest" />
+    <MESSAGE value="US 3: create operationsList in AccountOperation class and Refactor DepositTest RetrieveTest with Operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="US 3: create operationsList in AccountOperation class and Refactor DepositTest RetrieveTest with Operations" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -467,8 +487,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RetrieveTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="397">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AccountOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DepositTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -477,26 +514,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="e#69#70#0" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AccountOperation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/OperationsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DepositTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="69" selection-start-line="8" selection-start-column="7" selection-end-line="10" selection-end-column="69" />
+        <state relative-caret-position="111">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
