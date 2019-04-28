@@ -8,4 +8,8 @@ class Account {
    double deposit(double amount) {
         return this.balance + amount;
     }
+
+    double retrieve(double amount) {
+        return this.balance;
+    }
 }
