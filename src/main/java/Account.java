@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 class Account {
@@ -7,6 +8,11 @@ class Account {
     Account(double balance, List<AccountOperation> operations) {
         this.balance = balance;
         this.operations = operations;
+    }
+
+    Account() {
+        this.balance = 0;
+        this.operations = new ArrayList<>();
     }
 
     double addOperation(AccountOperation accountOperation) {

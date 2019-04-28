@@ -10,42 +10,27 @@ public class DepositTest {
 
     @Test
     public void balance_should_not_change_if_deposit_amount_is_zero() {
-        List<AccountOperation> operations = new ArrayList<>();
-        Account account = new Account(50,operations);
+        Account account = new Account();
         AccountOperation deposit = new AccountOperation(0, "+");
 
         double balanceAfterOperation = account.addOperation(deposit);
 
-        double balanceExpected = 50;
+        double balanceExpected = 0;
 
         Assertions.assertThat(balanceAfterOperation).isEqualTo(balanceExpected);
     }
 
     @Test
     public void  balance_should_increase_if_deposit_amount_is_greater_than_zero() {
-        List<AccountOperation> operations = new ArrayList<>();
-        Account account = new Account(50,operations);
+        Account account = new Account();
         AccountOperation deposit = new AccountOperation(50, "+");
 
         double balanceAfterOperation = account.addOperation(deposit);
 
-        double balanceExpected = 100
+        double balanceExpected = 50
                 ;
         Assertions.assertThat(balanceAfterOperation).isEqualTo(balanceExpected);
     }
 
-    @Test
-    public void balance_should_increase_with_many_deposits_bigger_than_zero() {
-        List<AccountOperation> operations = new ArrayList<>();
-        AccountOperation deposit1 = new AccountOperation(800, "+");
-        AccountOperation deposit2 = new AccountOperation(100, "+");
-        Account account = new Account(50, operations);
-        account.addOperation(deposit1);
 
-        double balanceAfterOperation = account.addOperation(deposit2);
-
-        double balanceExpected = 950
-                ;
-        assertThat(balanceAfterOperation).isEqualTo(balanceExpected);
-    }
 }
