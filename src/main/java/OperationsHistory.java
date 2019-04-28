@@ -8,10 +8,10 @@ public class OperationsHistory {
         List<AccountOperation> operations = new ArrayList<>();
 
         account = new Account(100,operations);
-        AccountOperation deposit1 = new AccountOperation(1000,"+");
-        AccountOperation deposit2 = new AccountOperation(20,"+");
-        AccountOperation retrieve1 = new AccountOperation(50,"-");
-        AccountOperation retrieve2 = new AccountOperation(100,"-");
+        AccountOperation deposit1 = new Deposit(1000);
+        AccountOperation deposit2 = new Deposit(20);
+        AccountOperation retrieve1 = new Retrieve(50);
+        AccountOperation retrieve2 = new Retrieve(100);
 
         List<String> operationsHistory = new ArrayList<>();
         operationWithBalance(deposit1, operationsHistory);

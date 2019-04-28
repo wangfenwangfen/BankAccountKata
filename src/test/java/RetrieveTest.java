@@ -11,7 +11,7 @@ public class RetrieveTest {
     public void balance_should_not_change_if_retrieve_amount_is_zero() {
         Account account = new Account();
 
-        AccountOperation retrieve = new AccountOperation(0, "-");
+        AccountOperation retrieve = new Retrieve(0);
 
         double balanceAfterOperation = account.addOperation(retrieve);
 
@@ -23,7 +23,7 @@ public class RetrieveTest {
     @Test
     public void balance_should_decrease_if_retrieve_amount_is_greater_than_zero() {
         Account account = new Account();
-        AccountOperation retrieve = new AccountOperation(50, "-");
+        AccountOperation retrieve = new Retrieve(50);
 
         double balanceAfterOperation = account.addOperation(retrieve);
 
