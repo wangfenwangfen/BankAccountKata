@@ -5,10 +5,10 @@ public class DepositTest {
 
     @Test
     public void balance_should_not_change_if_deposit_amount_is_zero() {
-        double amount = 0;
         Account account = new Account(50);
+        AccountOperation deposit = new AccountOperation(0, "+");
 
-        double balanceAfterOperation = account.deposit(amount);
+        double balanceAfterOperation = account.addOperation(deposit);
 
         double balanceExpected = 50;
 
@@ -17,11 +17,11 @@ public class DepositTest {
 
     @Test
     public void  balance_should_increase_if_deposit_amount_is_greater_than_zero() {
-        double amount = 50;
         Account account = new Account(50);
+        AccountOperation deposit = new AccountOperation(50, "+");
 
-        double balanceAfterOperation = account.deposit(amount);
-        
+        double balanceAfterOperation = account.addOperation(deposit);
+
         double balanceExpected = 100
                 ;
         Assertions.assertThat(balanceAfterOperation).isEqualTo(balanceExpected);

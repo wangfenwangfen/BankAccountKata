@@ -5,11 +5,8 @@ class Account {
         this.balance = balance;
     }
 
-   double deposit(double amount) {
-        return this.balance + amount;
-    }
-
-    double retrieve(double amount) {
-        return this.balance - amount;
+    double addOperation(AccountOperation accountOperation) {
+        balance = accountOperation.doOperation(balance);
+        return balance;
     }
 }
