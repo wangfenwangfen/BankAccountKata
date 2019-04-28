@@ -10,6 +10,6 @@ class Account {
     }
 
     double retrieve(double amount) {
-        return this.balance;
+        return this.balance - amount;
     }
 }

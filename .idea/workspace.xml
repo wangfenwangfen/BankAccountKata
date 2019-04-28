@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0764789c-8b4b-4f1a-a14a-a1be90d54ef5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RetrieveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DepositTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DepositTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RetrieveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RetrieveTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,8 +23,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Account.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+                <state relative-caret-position="153">
+                  <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
                   <folding>
                     <element signature="e#69#70#0" expanded="true" />
                     <element signature="e#107#108#0" expanded="true" />
@@ -59,8 +56,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/RetrieveTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+                <state relative-caret-position="459">
+                  <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -89,8 +86,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Account/Account.java" />
         <option value="$PROJECT_DIR$/src/test/java/DepositTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RetrieveTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Account.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RetrieveTest.java" />
       </list>
     </option>
   </component>
@@ -188,7 +185,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RetrieveTest.balance_should_not_change_if_retrieve_amount_is_zero">
+  <component name="RunManager" selected="JUnit.All in BankAccountKata">
+    <configuration name="All in BankAccountKata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BankAccountKata" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DepositTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BankAccountKata" />
       <option name="PACKAGE_NAME" value="" />
@@ -208,12 +213,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepositTest.balance_should_not_change_if_deposit_amount_is_zero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RetrieveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BankAccountKata" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DepositTest" />
-      <option name="METHOD_NAME" value="balance_should_not_change_if_deposit_amount_is_zero" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="RetrieveTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -230,10 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in BankAccountKata" />
+        <item itemvalue="JUnit.RetrieveTest" />
         <item itemvalue="JUnit.RetrieveTest.balance_should_not_change_if_retrieve_amount_is_zero" />
         <item itemvalue="JUnit.DepositTest" />
         <item itemvalue="JUnit.DepositTest.balance_should_increase_if_deposit_amount_is_greater_than_zero" />
-        <item itemvalue="JUnit.DepositTest.balance_should_not_change_if_deposit_amount_is_zero" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +252,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556476505015</updated>
-      <workItem from="1556476509659" duration="1573000" />
+      <workItem from="1556476509659" duration="1832000" />
     </task>
     <task id="LOCAL-00001" summary="US 1: creation depositTest : case balance should not change if deposit amount is zero">
       <created>1556477341216</created>
@@ -270,7 +275,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556477827007</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="US 1: creation RetrieveTest : case balance should not change if retrieve amount is zero">
+      <created>1556478170005</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556478170005</updated>
+    </task>
+    <task id="LOCAL-00005" summary="US 2: creation RetrieveTest : case balance should not change if retrieve amount is zero">
+      <created>1556478249041</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556478249041</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -295,9 +314,12 @@
     <history-entry file="DepositTest - 2019.04.28 at 20h 55m 40s.xml">
       <configuration name="DepositTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RetrieveTest_balance_should_not_change_if_retrieve_amount_is_zero - 2019.04.28 at 21h 01m 37s.xml">
+      <configuration name="RetrieveTest.balance_should_not_change_if_retrieve_amount_is_zero" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1573000" />
+    <option name="totallyTimeSpent" value="1832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
@@ -308,17 +330,17 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15210356" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15210356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.3298731" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Terminal" weight="0.3298731" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3298731" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298731" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -367,10 +389,38 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="US 1: creation depositTest : case balance should not change if deposit amount is zero" />
     <MESSAGE value="US 1: creation depositTest : case balance should increase if deposit amount is greater than zero" />
-    <option name="LAST_COMMIT_MESSAGE" value="US 1: creation depositTest : case balance should increase if deposit amount is greater than zero" />
+    <MESSAGE value="US 1: creation RetrieveTest : case balance should not change if retrieve amount is zero" />
+    <MESSAGE value="US 2: creation RetrieveTest : case balance should not change if retrieve amount is zero" />
+    <option name="LAST_COMMIT_MESSAGE" value="US 2: creation RetrieveTest : case balance should not change if retrieve amount is zero" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -392,8 +442,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="e#69#70#0" expanded="true" />
             <element signature="e#107#108#0" expanded="true" />
@@ -407,8 +457,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RetrieveTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="459">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

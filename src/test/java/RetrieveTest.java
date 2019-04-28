@@ -16,4 +16,17 @@ public class RetrieveTest {
 
         assertThat(balanceAfterRetrieve).isEqualTo(balanceExpected);
     }
+
+    @Test
+    public void balance_should_decrease_if_retrieve_amount_is_greater_than_zero() {
+
+        Account account = new Account(150);
+        double amount = 50;
+
+        double balanceAfterRetrieve = account.retrieve(amount);
+
+        double balanceExpected = 100;
+
+        assertThat(balanceAfterRetrieve).isEqualTo(balanceExpected);
+    }
 }
