@@ -18,4 +18,11 @@ class AccountOperation {
         }
         return balance - amount;
     }
+
+    @Override
+    public String toString() {
+        return "AccountOperation : " +
+                "dateTime = " + dateTime +
+                 ", amount = " + type + amount + "\n";
+    }
 }
