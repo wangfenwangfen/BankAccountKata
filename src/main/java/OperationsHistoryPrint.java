@@ -1,11 +1,10 @@
 import java.util.List;
 
-public class OperationsHistory {
-    private static   Account account;
+public class OperationsHistoryPrint {
 
     public static void main(String[] args) {
 
-        account = new Account();
+        Account account = new Account();
         AccountOperation deposit1 = new Deposit(1000);
         AccountOperation deposit2 = new Deposit(20);
         AccountOperation retrieve1 = new Retrieve(50);

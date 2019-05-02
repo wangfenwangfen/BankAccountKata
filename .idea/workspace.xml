@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0764789c-8b4b-4f1a-a14a-a1be90d54ef5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OperationsHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OperationsHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OperationsHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OperationsHistoryPrint.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,10 +25,10 @@
         <state>
           <leaf>
             <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/java/OperationsHistory.java">
+              <entry file="file://$PROJECT_DIR$/src/main/java/OperationsHistoryPrint.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state>
-                    <caret lean-forward="true" />
+                  <state relative-caret-position="323">
+                    <caret line="19" selection-start-line="19" selection-end-line="19" />
                   </state>
                 </provider>
               </entry>
@@ -42,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/AccountOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#291#292#0" expanded="true" />
                 <element signature="e#334#335#0" expanded="true" />
@@ -108,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/OperationsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
+            <state relative-caret-position="88">
               <caret line="64" column="74" lean-forward="true" selection-start-line="64" selection-start-column="74" selection-end-line="64" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -251,9 +249,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in BankAccountKata">
-    <configuration name="OperationsHistory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OperationsHistory" />
+  <component name="RunManager">
+    <configuration name="OperationsHistoryPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OperationsHistoryPrint" />
       <module name="BankAccountKata" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -297,8 +295,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OperationsHistoryPrint" />
         <item itemvalue="JUnit.All in BankAccountKata" />
-        <item itemvalue="Application.OperationsHistory" />
         <item itemvalue="JUnit.OperationsTest" />
         <item itemvalue="JUnit.RetrieveTest" />
         <item itemvalue="JUnit.OperationsTest.operations_with_deposit_and_retrieve" />
@@ -394,13 +392,17 @@
       <option name="project" value="LOCAL" />
       <updated>1556834407249</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Refactor :  change type LocalDateTime to localDate, creat method &quot;generateOperationsHistoryWithBalance&quot; in class Account and the test should return list of operations with balance detail case">
+      <created>1556835371617</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1556835371617</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OperationsTest - 2019.05.02 at 23h 55m 31s.xml">
-      <configuration name="OperationsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_BankAccountKata - 2019.05.02 at 23h 59m 53s.xml">
       <configuration name="All in BankAccountKata" configurationId="JUnit" />
     </history-entry>
@@ -428,9 +430,12 @@
     <history-entry file="All_in_BankAccountKata - 2019.05.03 at 00h 12m 29s.xml">
       <configuration name="All in BankAccountKata" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2019.05.03 at 00h 15m 04s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14812000" />
+    <option name="totallyTimeSpent" value="15097000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,20 +453,20 @@
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.3409396" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.3409396" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.3298731" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49932885" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49919093" weight="0.3298731" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5026846" side_tool="true" visible="true" weight="0.398017" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Find" order="8" sideWeight="0.49932885" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49731544" visible="true" weight="0.398017" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.4966443" weight="0.398017" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3298731" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3298731" />
@@ -531,7 +536,8 @@
     <MESSAGE value="US 3: operationsTest : operations_with_deposit_and_retrieve case" />
     <MESSAGE value="Refactor: creat Deposit and Retrieve extends AccountOperation" />
     <MESSAGE value="Refactor :  creat method &quot;generateOperationsHistory&quot; in class Account and the test should return list of operations with balance detail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor :  creat method &quot;generateOperationsHistory&quot; in class Account and the test should return list of operations with balance detail" />
+    <MESSAGE value="Refactor :  change type LocalDateTime to localDate, creat method &quot;generateOperationsHistoryWithBalance&quot; in class Account and the test should return list of operations with balance detail case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor :  change type LocalDateTime to localDate, creat method &quot;generateOperationsHistoryWithBalance&quot; in class Account and the test should return list of operations with balance detail case" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BankAccountKata$All_in_BankAccountKata.ic" NAME="All in BankAccountKata Coverage Results" MODIFIED="1556485902169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -581,20 +587,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AccountOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/OperationsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
+        <state relative-caret-position="88">
           <caret line="64" column="74" lean-forward="true" selection-start-line="64" selection-start-column="74" selection-end-line="64" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -604,18 +599,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OperationsHistory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AccountOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OperationsHistoryPrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
