@@ -1,23 +1,23 @@
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 abstract class AccountOperation {
 
-    private LocalDateTime dateTime;
+    private LocalDate date;
     private  double amount;
 
     AccountOperation(double amount) {
-        this.dateTime = LocalDateTime.now();
+        this.date = LocalDate.now();
         this.amount = amount;
     }
 
-    double doOperation(double balance){
+    double calculateBalance(double balance){
             return balance + amount;
     }
 
     @Override
     public String toString() {
         return "AccountOperation : " +
-                "dateTime = " + dateTime +
+                "date = " + date +
                  ", amount = " + amount;
     }
 }
