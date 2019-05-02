@@ -18,6 +18,6 @@ abstract class AccountOperation {
     public String toString() {
         return "AccountOperation : " +
                 "dateTime = " + dateTime +
-                 ", amount = " + amount + "\n";
+                 ", amount = " + amount;
     }
 }

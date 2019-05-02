@@ -25,7 +25,7 @@ public class OperationsHistory {
     }
 
     private static List<String> operationWithBalance(AccountOperation operation, List<String> operationsHistory){
-        String operationWithBalance= operation.toString() + "balance = " + account.addOperation(operation);
+        String operationWithBalance= operation.toString() + " balance = " + account.addOperation(operation)+ "\n";
         operationsHistory.add(operationWithBalance);
 
         return operationsHistory;
