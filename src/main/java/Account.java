@@ -2,15 +2,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Account {
-    private double balance;
+    private Money balance;
     private List<AccountOperation> operations;
 
     Account() {
-        this.balance = 0;
+        this.balance = Money.valueOf(0);
         this.operations = new ArrayList<>();
     }
 
-    double addOperation(AccountOperation accountOperation) {
+    Money addOperation(AccountOperation accountOperation) {
+
         balance = accountOperation.calculateBalance(balance);
         operations.add(accountOperation);
         return balance;
@@ -18,7 +19,7 @@ class Account {
 
     List<String> generateOperationHistoryWithBalance(){
         List<String> operationsHistoryWithBalances = new ArrayList<>();
-        double balanceHistory = 0;
+        Money balanceHistory = Money.valueOf(0);
 
         for(AccountOperation operation : operations){
 
