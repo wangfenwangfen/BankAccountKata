@@ -5,10 +5,10 @@ public class OperationsHistoryPrint {
     public static void main(String[] args) {
 
         Account account = new Account();
-        AccountOperation deposit1 = new Deposit(1000);
-        AccountOperation deposit2 = new Deposit(20);
-        AccountOperation retrieve1 = new Retrieve(50);
-        AccountOperation retrieve2 = new Retrieve(100);
+        AccountOperation deposit1 = new Deposit(Money.valueOf(1000));
+        AccountOperation deposit2 = new Deposit(Money.valueOf(20));
+        AccountOperation retrieve1 = new Retrieve(Money.valueOf(50));
+        AccountOperation retrieve2 = new Retrieve(Money.valueOf(100));
 
         account.addOperation(deposit1);
         account.addOperation(deposit2);

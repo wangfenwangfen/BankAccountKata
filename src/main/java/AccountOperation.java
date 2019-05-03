@@ -3,16 +3,14 @@ import java.time.LocalDate;
 abstract class AccountOperation {
 
     private LocalDate date;
-    private  double amount;
+    Money amount;
 
-    AccountOperation(double amount) {
+    AccountOperation(Money amount) {
         this.date = LocalDate.now();
         this.amount = amount;
     }
 
-    double calculateBalance(double balance){
-            return balance + amount;
-    }
+   abstract Money calculateBalance(Money balance);
 
     @Override
     public String toString() {

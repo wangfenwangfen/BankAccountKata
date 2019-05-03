@@ -1,9 +1,6 @@
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class RetrieveTest {
 
@@ -11,11 +8,11 @@ public class RetrieveTest {
     public void balance_should_not_change_if_retrieve_amount_is_zero() {
         Account account = new Account();
 
-        AccountOperation retrieve = new Retrieve(0);
+        AccountOperation retrieve = new Retrieve(Money.valueOf(0));
 
-        double balanceAfterOperation = account.addOperation(retrieve);
+        Money balanceAfterOperation = account.addOperation(retrieve);
 
-        double balanceExpected = 0;
+        Money balanceExpected =  Money.valueOf(0);
 
         assertThat(balanceAfterOperation).isEqualTo(balanceExpected);
     }
@@ -23,11 +20,11 @@ public class RetrieveTest {
     @Test
     public void balance_should_decrease_if_retrieve_amount_is_greater_than_zero() {
         Account account = new Account();
-        AccountOperation retrieve = new Retrieve(50);
+        AccountOperation retrieve = new Retrieve(Money.valueOf(50));
 
-        double balanceAfterOperation = account.addOperation(retrieve);
+        Money balanceAfterOperation = account.addOperation(retrieve);
 
-        double balanceExpected = -50;
+        Money balanceExpected = Money.valueOf(50);
 
         assertThat(balanceAfterOperation).isEqualTo(balanceExpected);
     }

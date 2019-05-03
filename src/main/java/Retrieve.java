@@ -1,8 +1,10 @@
 class Retrieve extends AccountOperation {
-    Retrieve(double amount) {
-        super(- Math.abs(amount));
-        if(amount<0){
-            throw new IllegalArgumentException("Amount can not be negative");
-        }
+    Retrieve(Money amount) {
+        super(amount);
+    }
+
+    @Override
+    Money calculateBalance(Money balance) {
+        return balance.substractBy(amount);
     }
 }

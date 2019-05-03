@@ -7,12 +7,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class OperationsTest {
     @Test
     public void balance_should_increase_with_many_deposits_bigger_than_zero() {
-        AccountOperation deposit1 = new Deposit(800);
-        AccountOperation deposit2 = new Deposit(100);
+        AccountOperation deposit1 = new Deposit(Money.valueOf(800));
+        AccountOperation deposit2 = new Deposit(Money.valueOf(100));
         Account account = new Account();
         account.addOperation(deposit1);
 
-        double balanceAfterOperation = account.addOperation(deposit2);
+        Money balanceAfterOperation = account.addOperation(deposit2);
 
         double balanceExpected = 900
                 ;
@@ -21,13 +21,13 @@ public class OperationsTest {
 
     @Test
     public void balance_should_decrease_when_many_retrieves_amount_are_greater_than_zero() {
-        AccountOperation retrieve1 = new Retrieve(50);
-        AccountOperation retrieve2 = new Retrieve(100);
+        AccountOperation retrieve1 = new Retrieve(Money.valueOf(50));
+        AccountOperation retrieve2 = new Retrieve(Money.valueOf(100));
         Account account = new Account();
 
         account.addOperation(retrieve1);
 
-        double balanceAfterOperation = account.addOperation(retrieve2);
+        Money balanceAfterOperation = account.addOperation(retrieve2);
 
         double balanceExpected = -150;
 
@@ -36,15 +36,15 @@ public class OperationsTest {
 
     @Test
     public void operations_with_deposit_and_retrieve(){
-        AccountOperation deposit1 = new Deposit(100);
-        AccountOperation deposit2 = new Deposit(20);
-        AccountOperation retrieve = new Retrieve(50);
+        AccountOperation deposit1 = new Deposit(Money.valueOf(100));
+        AccountOperation deposit2 = new Deposit(Money.valueOf(20));
+        AccountOperation retrieve = new Retrieve(Money.valueOf(50));
 
         Account account = new Account();
 
         account.addOperation(deposit1);
         account.addOperation(deposit2);
-        double balanceAfterOperation = account.addOperation(retrieve);
+        Money balanceAfterOperation = account.addOperation(retrieve);
 
         double balanceExpected = 70;
 
@@ -55,8 +55,8 @@ public class OperationsTest {
     @Test
     public void should_return_list_of_operations_history_with_balance_detail() {
         Account account = new Account();
-        double amount = 100;
-        double amount2 = 200;
+        Money amount =Money.valueOf ( 100);
+        Money amount2 =  Money.valueOf(200);
         AccountOperation deposit = new Deposit(amount);
         AccountOperation deposit2 = new Deposit(amount2);
 
