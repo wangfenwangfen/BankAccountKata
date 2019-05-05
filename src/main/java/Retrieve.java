@@ -7,4 +7,11 @@ class Retrieve extends AccountOperation {
     Money calculateBalance(Money balance) {
         return balance.substractBy(amount);
     }
+
+    @Override
+    public String toString() {
+        return "AccountOperation : " +
+                "date = " + date +
+                ", amount = -" + amount;
+    }
 }

@@ -6,4 +6,11 @@ class Deposit extends AccountOperation {
     Money calculateBalance(Money balance) {
         return balance.addBy(amount);
     }
+
+    @Override
+    public String toString() {
+        return "AccountOperation : " +
+                "date = " + date +
+                ", amount = +" + amount;
+    }
 }

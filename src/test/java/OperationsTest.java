@@ -56,16 +56,16 @@ public class OperationsTest {
     public void should_return_list_of_operations_history_with_balance_detail() {
         Account account = new Account();
         Money amount =Money.valueOf ( 100);
-        Money amount2 =  Money.valueOf(200);
+        Money amount2 =  Money.valueOf(50);
         AccountOperation deposit = new Deposit(amount);
-        AccountOperation deposit2 = new Deposit(amount2);
+        AccountOperation retrieve = new Retrieve(amount2);
 
         account.addOperation(deposit);
-        account.addOperation(deposit2);
+        account.addOperation(retrieve);
         List<String> operationSWithBalances = account.generateOperationHistoryWithBalance();
 
-        String depositString = deposit.toString() + " balance = "+ 100d + "\n" ;
-        String deposit2String = deposit2.toString() + " balance = "+ 300d + "\n" ;
+        String depositString = "AccountOperation : date = 2019-05-05, amount = +100.0" + " balance = " + 100d + "\n" ;
+        String deposit2String = "AccountOperation : date = 2019-05-05, amount = -50.0" + " balance = " + 50d + "\n" ;
         List<String> stringExpected = new ArrayList<>();
         stringExpected.add(depositString);
         stringExpected.add(deposit2String);

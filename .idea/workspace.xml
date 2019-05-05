@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0764789c-8b4b-4f1a-a14a-a1be90d54ef5" name="Default Changelist" comment="" />
+    <list default="true" id="0764789c-8b4b-4f1a-a14a-a1be90d54ef5" name="Default Changelist" comment="Refactor :  create Money type">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AccountOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AccountOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Deposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Deposit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Retrieve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Retrieve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DepositTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DepositTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,10 +27,78 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DepositTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/OperationsHistoryPrint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/OperationsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1081">
+              <caret line="70" column="43" lean-forward="true" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Deposit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="e#67#68#0" expanded="true" />
+                <element signature="e#96#97#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Retrieve.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+              <folding>
+                <element signature="e#69#70#0" expanded="true" />
+                <element signature="e#98#99#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+            <state relative-caret-position="238">
+              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,41 +109,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#926#927#0" expanded="true" />
-                <element signature="e#969#970#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Deposit.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-              <folding>
-                <element signature="e#67#68#0" expanded="true" />
-                <element signature="e#96#97#0" expanded="true" />
-              </folding>
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Retrieve.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RetrieveTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="163">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding>
-                <element signature="e#69#70#0" expanded="true" />
-                <element signature="e#98#99#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,53 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AccountOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/OperationsHistoryPrint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DepositTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/OperationsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RetrieveTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -147,16 +156,17 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Account/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/OperationsHistory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Retrieve.java" />
         <option value="$PROJECT_DIR$/src/main/java/OperationsHistoryPrint.java" />
         <option value="$PROJECT_DIR$/src/test/java/DepositTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/Money/Money.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RetrieveTest.java" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Money.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OperationsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/AccountOperation.java" />
         <option value="$PROJECT_DIR$/src/main/java/Deposit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Money.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RetrieveTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/OperationsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Retrieve.java" />
       </list>
     </option>
   </component>
@@ -167,11 +177,22 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="BankAccountKata" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -181,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,7 +244,29 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Problems'; set:Problems; class com.intellij.psi.search.scope.ProblemsScope">
+          <expand>
+            <path>
+              <item name="BankAccountKata" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="BankAccountKata" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="BankAccountKata" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="BankAccountKata" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="BankAccountKata" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="BankAccountKata" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +274,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556899414752" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -243,6 +285,9 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fen\IdeaProjects\BankAccountKata\target" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Money" />
@@ -262,7 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in BankAccountKata">
+  <component name="RunManager" selected="Application.OperationsHistoryPrint">
     <configuration name="OperationsHistoryPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OperationsHistoryPrint" />
       <module name="BankAccountKata" />
@@ -309,11 +354,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OperationsHistoryPrint" />
         <item itemvalue="JUnit.All in BankAccountKata" />
         <item itemvalue="JUnit.RetrieveTest.balance_should_not_change_if_retrieve_amount_is_zero" />
         <item itemvalue="JUnit.DepositTest" />
         <item itemvalue="JUnit.DepositTest.warn_when_amount_is_less_than_zero" />
-        <item itemvalue="Application.OperationsHistoryPrint" />
       </list>
     </recent_temporary>
   </component>
@@ -329,6 +374,9 @@
       <updated>1556476505015</updated>
       <workItem from="1556476509659" duration="6137000" />
       <workItem from="1557057076022" duration="2189000" />
+      <workItem from="1557059998202" duration="828000" />
+      <workItem from="1557060852197" duration="351000" />
+      <workItem from="1557061435840" duration="928000" />
     </task>
     <task id="LOCAL-00001" summary="US 1: creation depositTest : case balance should not change if deposit amount is zero">
       <created>1556477341216</created>
@@ -425,24 +473,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_BankAccountKata - 2019.05.05 at 14h 00m 25s.xml">
-      <configuration name="All in BankAccountKata" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BankAccountKata - 2019.05.05 at 14h 00m 57s.xml">
-      <configuration name="All in BankAccountKata" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BankAccountKata - 2019.05.05 at 14h 04m 10s.xml">
-      <configuration name="All in BankAccountKata" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BankAccountKata - 2019.05.05 at 14h 05m 39s.xml">
-      <configuration name="All in BankAccountKata" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BankAccountKata - 2019.05.05 at 14h 06m 47s.xml">
-      <configuration name="All in BankAccountKata" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BankAccountKata - 2019.05.05 at 14h 07m 19s.xml">
-      <configuration name="All in BankAccountKata" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_BankAccountKata - 2019.05.05 at 14h 08m 34s.xml">
       <configuration name="All in BankAccountKata" configurationId="JUnit" />
     </history-entry>
@@ -455,9 +485,27 @@
     <history-entry file="All_in_BankAccountKata - 2019.05.05 at 14h 09m 32s.xml">
       <configuration name="All in BankAccountKata" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2019.05.05 at 14h 54m 44s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2019.05.05 at 15h 08m 39s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2019.05.05 at 15h 13m 45s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2019.05.05 at 15h 15m 11s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2019.05.05 at 15h 16m 57s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2019.05.05 at 15h 17m 28s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17286000" />
+    <option name="totallyTimeSpent" value="19393000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -470,34 +518,35 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.21543624" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.22483222" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="2" sideWeight="0.4986577" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49798658" weight="0.32719547" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49919093" weight="0.56657225" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49463087" weight="0.22946176" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5073826" side_tool="true" weight="0.3967789" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5087248" side_tool="true" visible="true" weight="0.4362606" />
       <window_info anchor="bottom" id="Find" order="8" sideWeight="0.49798658" weight="0.32796487" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49261746" weight="0.4362606" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49127516" visible="true" weight="0.4362606" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3298731" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49798658" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4966443" weight="0.3286119" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3295302" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" visible="true" weight="0.12540454" />
       <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
@@ -597,81 +646,54 @@
     <SUITE FILE_PATH="coverage/BankAccountKata$All_in_BankAccountKata.ic" NAME="All in BankAccountKata Coverage Results" MODIFIED="1556485902169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/ArrayList.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Amount.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="221">
+          <caret line="13" column="139" selection-start-line="13" selection-start-column="139" selection-end-line="13" selection-end-column="139" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/ArrayList.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Amount.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Money.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DepositTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="476">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AccountOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/target/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Deposit.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="e#67#68#0" expanded="true" />
-            <element signature="e#96#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Money.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/OperationsHistoryPrint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="61">
           <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Retrieve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#69#70#0" expanded="true" />
-            <element signature="e#98#99#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        <state relative-caret-position="238">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -680,8 +702,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RetrieveTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="163">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -690,10 +712,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/OperationsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="1081">
+          <caret line="70" column="43" lean-forward="true" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Money.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AccountOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Deposit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="e#67#68#0" expanded="true" />
+            <element signature="e#96#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Retrieve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="e#69#70#0" expanded="true" />
+            <element signature="e#98#99#0" expanded="true" />
           </folding>
         </state>
       </provider>
