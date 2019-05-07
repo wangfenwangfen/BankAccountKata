@@ -21,8 +21,7 @@ public class DepositTest {
 
         Money balanceAfterOperation = account.addOperation(deposit);
 
-        Money balanceExpected = Money.valueOf(50)
-                ;
+        Money balanceExpected = Money.valueOf(50);
         Assertions.assertThat(balanceAfterOperation).isEqualTo(balanceExpected);
     }
 
