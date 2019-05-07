@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0764789c-8b4b-4f1a-a14a-a1be90d54ef5" name="Default Changelist" comment="Refactor :  create Money type">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0764789c-8b4b-4f1a-a14a-a1be90d54ef5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OperationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AccountOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AccountOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Deposit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Deposit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Money.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Money.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Retrieve.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Retrieve.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/OperationsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/OperationsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AccountOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Deposit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Money.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OperationsHistoryPrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Retrieve.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DepositTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state relative-caret-position="177">
+              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="389">
+              <caret line="132" column="37" selection-start-line="132" selection-start-column="37" selection-end-line="132" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -52,17 +50,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/OperationsHistoryPrint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="391">
+              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/OperationsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="69" column="69" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="69" />
+            <state relative-caret-position="1173">
+              <caret line="57" column="76" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Retrieve.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="230">
               <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
               <folding>
                 <element signature="e#69#70#0" expanded="true" />
@@ -99,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+            <state relative-caret-position="414">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,7 +157,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Account/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/OperationsHistory.java" />
         <option value="$PROJECT_DIR$/src/main/java/OperationsHistoryPrint.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DepositTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/Money/Money.java" />
         <option value="$PROJECT_DIR$/src/test/java/RetrieveTest.java" />
@@ -169,6 +166,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Deposit.java" />
         <option value="$PROJECT_DIR$/src/main/java/Retrieve.java" />
         <option value="$PROJECT_DIR$/src/test/java/OperationsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DepositTest.java" />
+        <option value="$PROJECT_DIR$/target/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -191,10 +191,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
+    <option name="x" value="-10" />
+    <option name="width" value="1935" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -204,6 +203,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BankAccountKata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankAccountKata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BankAccountKata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Problems'; set:Problems; class com.intellij.psi.search.scope.ProblemsScope">
           <expand>
@@ -227,52 +241,17 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BankAccountKata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankAccountKata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BankAccountKata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankAccountKata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BankAccountKata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankAccountKata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BankAccountKata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankAccountKata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BankAccountKata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BankAccountKata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557217393065" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557219871445" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CashRegister" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -350,9 +329,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in BankAccountKata" />
+        <item itemvalue="JUnit.DepositTest" />
         <item itemvalue="Application.OperationsHistoryPrint" />
         <item itemvalue="JUnit.RetrieveTest.balance_should_not_change_if_retrieve_amount_is_zero" />
-        <item itemvalue="JUnit.DepositTest" />
         <item itemvalue="JUnit.DepositTest.warn_when_amount_is_less_than_zero" />
       </list>
     </recent_temporary>
@@ -464,13 +443,17 @@
       <option name="project" value="LOCAL" />
       <updated>1557058264144</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="change in OperationsTest : should return list of operations history with balance detail case, by modifier the date">
+      <created>1557217466858</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1557217466858</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_BankAccountKata - 2019.05.05 at 14h 09m 32s.xml">
-      <configuration name="All in BankAccountKata" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_BankAccountKata - 2019.05.05 at 14h 54m 44s.xml">
       <configuration name="All in BankAccountKata" configurationId="JUnit" />
     </history-entry>
@@ -498,6 +481,9 @@
     <history-entry file="All_in_BankAccountKata - 2019.05.07 at 10h 22m 16s.xml">
       <configuration name="All in BankAccountKata" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_BankAccountKata - 2019.05.07 at 10h 44m 29s.xml">
+      <configuration name="All in BankAccountKata" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="19393000" />
@@ -518,20 +504,20 @@
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.22818792" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.23154363" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49798658" weight="0.32719547" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49798658" visible="true" weight="0.32650074" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49395972" weight="0.2284041" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060403" side_tool="true" weight="0.2284041" />
       <window_info anchor="bottom" id="Find" order="8" sideWeight="0.49798658" weight="0.32796487" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49127516" visible="true" weight="0.43484625" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49127516" weight="0.43484625" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3298731" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4966443" weight="0.3286119" />
@@ -635,7 +621,8 @@
     <MESSAGE value="Refactor :  creat method &quot;generateOperationsHistory&quot; in class Account and the test should return list of operations with balance detail" />
     <MESSAGE value="Refactor :  change type LocalDateTime to localDate, creat method &quot;generateOperationsHistoryWithBalance&quot; in class Account and the test should return list of operations with balance detail case" />
     <MESSAGE value="Refactor :  create Money type" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor :  create Money type" />
+    <MESSAGE value="change in OperationsTest : should return list of operations history with balance detail case, by modifier the date" />
+    <option name="LAST_COMMIT_MESSAGE" value="change in OperationsTest : should return list of operations history with balance detail case, by modifier the date" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BankAccountKata$All_in_BankAccountKata.ic" NAME="All in BankAccountKata Coverage Results" MODIFIED="1556485902169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -651,28 +638,38 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/target/.gitignore" />
     <entry file="file://$PROJECT_DIR$/src/test/java/DepositTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="177">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/OperationsHistoryPrint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="391">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OperationsHistoryPrint.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/OperationsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="1173">
+          <caret line="57" column="76" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -687,10 +684,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Retrieve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="e#69#70#0" expanded="true" />
+            <element signature="e#98#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        <state relative-caret-position="414">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -721,24 +729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Retrieve.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="e#69#70#0" expanded="true" />
-            <element signature="e#98#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/OperationsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="69" column="69" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="389">
+          <caret line="132" column="37" selection-start-line="132" selection-start-column="37" selection-end-line="132" selection-end-column="37" />
         </state>
       </provider>
     </entry>
