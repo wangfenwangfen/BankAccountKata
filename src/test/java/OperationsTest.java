@@ -1,4 +1,6 @@
 import org.junit.Test;
+
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -63,9 +65,9 @@ public class OperationsTest {
         account.addOperation(deposit);
         account.addOperation(retrieve);
         List<String> operationSWithBalances = account.generateOperationHistoryWithBalance();
-
-        String depositString = "AccountOperation : date = 2019-05-05, amount = +100.0" + " balance = " + 100d + "\n" ;
-        String deposit2String = "AccountOperation : date = 2019-05-05, amount = -50.0" + " balance = " + 50d + "\n" ;
+        LocalDate date = LocalDate.now();
+        String depositString = "AccountOperation : date = " + date + ", amount = +100.0" + " balance = " + 100d + "\n" ;
+        String deposit2String = "AccountOperation : date = " + date + ", amount = -50.0" + " balance = " + 50d + "\n" ;
         List<String> stringExpected = new ArrayList<>();
         stringExpected.add(depositString);
         stringExpected.add(deposit2String);
